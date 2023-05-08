@@ -27,7 +27,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Basic Inputs - Forms | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>RFQ Form - Harris Pye - BrasiL</title>
 
     <meta name="description" content="" />
 
@@ -65,16 +65,15 @@
 
   <body>
     <!-- Layout wrapper -->
-    <hr>
+
     <h1 style="text-align: center;">FORMULÁRIO RFQ</h1>
     <hr>
     <div class="card-body">
-
-      <!-- First Row -->
+      <!-- First Row --> 
       <div class="mb-3 row">
-        <!-- Enquire Prospect Source -->
-        <label for="html5-text-input" class="col-md-2 col-form-label">Enquiry Prospect Source</label>
-        <div class="col-md-10">
+          <!-- Enquire Prospect Source -->
+        <label for="html5-text-input" class="col-md-2 col-form-label"><b>Enquiry Prospect Source:</b></label>
+        <div class="col-sm-6">
           <div class="form-check form-check-inline mt-4">
             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
             <label class="form-check-label" for="inlineRadio1">Email</label>
@@ -95,38 +94,40 @@
         
         </div>
       </div>
-      <!-- Second Row -->
+      <!-- Second Row --> 
       <div class="mb-3 row">
-
-        <label for="html5-date-input" class="col-md-2 col-form-label"><b>RFQ RECEIVED DATE:</b></label>
+         <!-- RFQ RECEIVED DATE: --> 
+        <label for="received-date-input" class="col-md-2 col-form-label"><b>RFQ RECEIVED DATE:</b></label>
         <div class="col-sm"> 
-            
             <div class="col-md-10">
-            <input class="form-control" type="date" value="2023-01-07" id="html5-date-input">
-        </div></div>
-        <label for="html5-date-input" class="col-md-2 col-form-label"><b>CLIENT RFQ DEADLINE:</b></label>
+            <input class="form-control" type="date" value="2023-01-07" id="received-date-input">
+        </div>
+
+      </div>
+        <!-- CLIENT RFQ DEADLINE: -->
+        <label for="deadline-date-input" class="col-md-2 col-form-label"><b> CLIENT RFQ DEADLINE:</b></label>
         <div class="col-sm"> 
           
           <div class="col-md-10">
-          <input class="form-control" type="date" value="2023-01-07" id="html5-date-input">
+          <input class="form-control" type="date" value="2023-01-07" id="deadline-date-input">
           </div>
         </div>          
 
       </div>
       <!-- Third Row -->
       <div class="mb-3 row">
-
-        <label for="html5-date-input" class="col-md-2 col-form-label"><b>INTERNAL QUOTAION DEADLINE:</b></label>
+        <!-- INTERNAL QUOTAION DEADLINE: -->
+        <label for="deadline2-date-input" class="col-md-2 col-form-label"><b>INTERNAL QUOTAION DEADLINE:</b></label>
         <div class="col-sm"> 
             <div class="col-md-10">
-              <input class="form-control" type="date" value="2023-01-07" id="html5-date-input">
+              <input class="form-control" type="date" value="2023-01-07" id="deadline2-date-input">
             </div>
         </div>
-
-        <label for="html5-date-input" class="col-md-2 col-form-label"><b>ESTIMATED START DATE:</b></label>
+        <!-- ESTIMATED START DATE: -->
+        <label for="startdate-date-input" class="col-md-2 col-form-label"><b>ESTIMATED START DATE:</b></label>
         <div class="col-sm"> 
           <div class="col-md-10">
-            <input class="form-control" type="date" value="2023-01-07" id="html5-date-input">
+            <input class="form-control" type="date" value="2023-01-07" id="startdate-date-input">
           </div>
         </div>        
   
@@ -134,26 +135,27 @@
        <!-- Fourth Row -->
       <div class="mb-3 row">
 
-        <label for="html5-date-input" class="col-md-2 col-form-label"><b>Expected Closure/Awarding Date:</b></label>
+        <label for="closure-date-input" class="col-md-2 col-form-label"><b>Expected Closure/Awarding Date:</b></label>
         <div class="col-sm"> 
             <div class="col-md-10">
-              <input class="form-control" type="date" value="2023-01-07" id="html5-date-input">
+              <input class="form-control" type="date" value="2023-01-07" id="closure-date-input">
             </div>
         </div>
 
-        <label for="html5-date-input" class="col-md-2 col-form-label"><b>ESTIMATED COMPLETION DATE:</b></label>
+        <label for="completion-date-input" class="col-md-2 col-form-label"><b>ESTIMATED COMPLETION DATE:</b></label>
        
         <div class="col-sm"> 
           <div class="col-md-10">
-            <input class="form-control" type="date" value="2023-01-07" id="html5-date-input">
+            <input class="form-control" type="date" value="2023-01-07" id="completion-date-input">
           </div>
         </div>        
   
       </div>
-      <!-- FIFTH Row -->
+      <!-- Fifth Row -->
+      <hr>
       <div class="mb-3">
-        <label for="exampleFormControlSelect1" class="form-label">Site - Vessel</label>
-        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+        <label for="VesselFormControlSelect1" class="form-label d-flex justify-content-center">Site - Vessel</label>
+        <select class="form-select" id="VesselFormControlSelect1" aria-label="Default select example">
           <option selected="">Select</option>
           <option value="1">MV-15</option>
           <option value="2">MV-18</option>
@@ -166,53 +168,53 @@
           <option value="9">FPSO - ESPIRITO SANTO</option>
         </select>
       </div>
-      <!-- SIXTH Row -->
+      <!-- Sixth Row -->
       <div class="row mb-3">
-        <label class="col-sm-2 col-form-label" for="basic-default-company">OPPORTUNITY NAME:</label>
+        <label class="col-sm-2 col-form-label" for="opportunity-name">OPPORTUNITY NAME:</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="basic-default-company" placeholder="SCOPE DESCRIPTION">
+          <input type="text" class="form-control" id="opportunity-name" placeholder="SCOPE DESCRIPTION">
         </div>
       </div>
-      <!-- SEVENTH Row -->
+      <!-- Seventh Row -->
       <div class="row mb-3">
-        <label class="col-sm-2 col-form-label" for="basic-default-company">ACCOUNT NAME:</label>
+        <label class="col-sm-2 col-form-label" for="account-name">ACCOUNT NAME:</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="basic-default-company" placeholder="CLIENT - COMPANY NAME">
+          <input type="text" class="form-control" id="account-name" placeholder="CLIENT - COMPANY NAME">
         </div>
       </div>
-      <!-- EIGHTH Row -->
+      <!-- Eigth Row -->
 
       <div class="row mb-3">
 
-        <label class="col-sm-2 col-form-label" for="basic-default-company">CLIENT TECHNICAL CONTACT NAME:</label>
+        <label class="col-sm-2 col-form-label" for="client-contact-name">CLIENT TECHNICAL CONTACT NAME:</label>
         <div class="col-sm">
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="basic-default-company" placeholder="CONTACT NAME">
+            <input type="text" class="form-control" id="technical-contact-name" placeholder="CONTACT NAME">
           </div></div>
 
-        <label for="html5-email-input" class="col-md-2 col-form-label">CLIENT TECHNICAL CONTACT MAIL:</label>
+        <label for="client-contact-mail" class="col-md-2 col-form-label">CLIENT TECHNICAL CONTACT MAIL:</label>
         <div class="col-sm">
             <div class="col-md-10">
-              <input class="form-control" type="email" value="CONTACT @MAIL.COM" id="html5-email-input">
+              <input class="form-control" type="email" value="CONTACT @MAIL.COM" id="technical-contact-mail">
             </div>
 
         </div>
         
       </div>
 
-      <!-- NINTH Row -->
+      <!-- Ninth Row -->
       <div class="row mb-3">
 
-        <label class="col-sm-2 col-form-label" for="basic-default-company">TECHNICAL COMERCIAL CONTACT NAME:</label>
+        <label class="col-sm-2 col-form-label" for="comercial-contact-name">TECHNICAL COMERCIAL CONTACT NAME:</label>
         <div class="col-sm">
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="basic-default-company" placeholder="CONTACT NAME">
+            <input type="text" class="form-control " id="comercial-contact-name" placeholder="CONTACT NAME">
           </div></div>
 
-        <label for="html5-email-input" class="col-md-2 col-form-label">TECHNICAL COMERCIAL CONTACT MAIL:</label>
+        <label for="comercial-contact-mail" class="col-md-2 col-form-label">TECHNICAL COMERCIAL CONTACT MAIL:</label>
         <div class="col-sm">
             <div class="col-md-10">
-              <input class="form-control" type="email" value="CONTACT @MAIL.COM" id="html5-email-input">
+              <input class="form-control" type="email" value="CONTACT @MAIL.COM" id="comercial-contact-mail">
             </div>
 
         </div>
@@ -220,119 +222,239 @@
       </div>
 
 
-      <!-- TENTH -->
+      <!-- Tenth Row-->
+      <hr>
       <div class="mb-3 row">
+       
         <!-- Project Category: -->
-        <label for="html5-text-input" class="col-md-2 col-form-label">Project Category:</label>
-        <div class="col-md-10">
-          <div class="form-check form-check-inline mt-2w">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">FIXED PRICE</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">TIME AND MATERIAL</label>
-          </div>
+        <label for="html5-text-input" class="col-md-2 col-form-label"><b>Project Category:</b></label>
+        <div class="col-sm">
          
-          </div>
-        
-        
-        </div>
-      </div>
-      <!-- eleventh  -->
-      <div class="mb-3 row">
-        <!-- Business Sector: -->
-        <label for="html5-text-input" class="col-md-2 col-form-label">Business Sector:</label>
-        <div class="col-md-10">
-          <div class="form-check form-check-inline mt-2w">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">FIXED PRICE</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">TIME AND MATERIAL</label>
-          </div>
-         
-          </div>
-        
-        
-        </div>
-      </div>
-
-
-
-
-
-      <div class="mb-3 row">
-        <label for="html5-search-input" class="col-md-2 col-form-label">Search</label>
-        <div class="col-md-10">
+          <div class="col-md-10">
+            <div class="form-check form-check-inline mt-2w">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2.1" value="option1">
+              <label class="form-check-label" for="inlineRadio2.1">FIXED PRICE</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2.2" value="option2">
+              <label class="form-check-label" for="inlineRadio2.2">TIME AND MATERIAL</label>
+            </div>
           
-          <input class="form-control" type="search" value="Search ..." id="html5-search-input">
+            </div>
+        </div>
+
+        <!-- Business Sector: -->
+        <label for="html5-text-input" class="col-md-2 col-form-label"><b>Business Sector:</b></label>
+        <div class="col-sm">
+     
+          <div class="col-md-10">
+            <div class="form-check form-check-inline mt-2w">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3.1" value="option1">
+              <label class="form-check-label" for="inlineRadio3.1">FIXED PRICE</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3.2" value="option2">
+              <label class="form-check-label" for="inlineRadio3.2">TIME AND MATERIAL</label>
+            </div>
+          
+            </div>
+               
+        
+        </div>  
+
+      </div>
+      <hr>
+      <!-- Eleventh Row -->
+      <div class="mb row">
+
+         <!-- Business Segment: -->
+        <label for="html5-text-input" class="col-md-2 col-form-label"><b>Business Segment:</b></label> 
+        
+        <div class="col-md-10">
+       
+          <div class="form-check form-check-inline mt-2w">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.1" value="option1">
+            <label class="form-check-label" for="inlineRadio4.1">Offshore Boiler</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.2" value="option2">
+            <label class="form-check-label" for="inlineRadio4.2">Offshore Other</label>
+          </div>
+          <div class="form-check form-check-inline mt-2w">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.3" value="option3">
+            <label class="form-check-label" for="inlineRadio4.3">Marine Boiler</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.4" value="option4">
+            <label class="form-check-label" for="inlineRadio4.4">Marine Other</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.5" value="option5">
+            <label class="form-check-label" for="inlineRadio4.5">Land - EFW </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.6" value="option6">
+            <label class="form-check-label" for="inlineRadio4.6">Land - Petrochemical </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.7" value="option7">
+            <label class="form-check-label" for="inlineRadio4.7">Land - Power </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.8" value="option8">
+            <label class="form-check-label" for="inlineRadio4.8">Land - Water </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.9" value="option9">
+            <label class="form-check-label" for="inlineRadio4.9">Land - industrial </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4.10" value="option10">
+            <label class="form-check-label" for="inlineRadio4.10">Land - Other </label>
+          </div>
+          
+        </div>
+                 
+        
+      </div>  
+      <hr>
+      <!-- Twelfth Row -->
+      <div class="mb-3 row">
+        <!--  Primary Selection Criteria-->
+        <label for="html5-text-input" class="col-md-2 col-form-label">Primary Selection Criteria:</label>
+        <div class="col-md-10">
+          <div class="form-check form-check-inline mt-4">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5.1" value="option1">
+            <label class="form-check-label" for="inlineRadio5.1">Price</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5.2" value="option2">
+            <label class="form-check-label" for="inlineRadio5.2">Technical</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5.3" value="option3">
+            <label class="form-check-label" for="inlineRadio5.3">Availability</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5.4" value="option4">
+            <label class="form-check-label" for="inlineRadio5.4">Quality</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5.5" value="option5">
+            <label class="form-check-label" for="inlineRadio5.5">Reputation</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5.6" value="option6">
+            <label class="form-check-label" for="inlineRadio5.6">Other</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5.6" value="option6">
+            <label class="form-check-label" for="inlineRadio5.6">Other</label>
+          </div>
+        
+        
+          
+        
+        
         </div>
       </div>
+      <hr>
+
+      <div class="mb-3 row">
+        
+        <label for="html5-number-input" class="col-sm-2 col-form-label">Estimated revenue:  R$ </label>
+       
+        <div class="col-sm"> 
+          
+            <input class="form-control-lg" type="number" value="0.01" id="html5-number-input">
+            <pre> <i>Sales Value Without</i></pre>
+
+                        
+        </div> 
+
+        <label for="html5-number-input2" class="col-sm-2 col-form-label">Approximate buget cost:</label>
+
+        <div class="col-sm"> 
+          
+          <input class="form-control-lg" type="number" value="0.01" id="html5-number-input2">
+          
+
+                      
+      </div> 
+
+        
+         
+        
+        
+      </div>
+      <hr>
+      <div class="mb-3 row">
+
+        <label for="html5-number-input" class="col-md-2 col-form-label">GO probability</label>
+        <div class="col-sm-3">
+          <div class="col-md-10">
+            <input class="form-control" type="number" value="18" id="html5-number-input">
+          </div>
     
-      <div class="mb-3 row">
-        <label for="html5-url-input" class="col-md-2 col-form-label">URL</label>
-        <div class="col-md-10">
-          <input class="form-control" type="url" value="https://themeselection.com" id="html5-url-input">
         </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="html5-tel-input" class="col-md-2 col-form-label">Phone</label>
-        <div class="col-md-10">
-          <input class="form-control" type="tel" value="90-(164)-188-556" id="html5-tel-input">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="html5-password-input" class="col-md-2 col-form-label">Password</label>
-        <div class="col-md-10">
-          <input class="form-control" type="password" value="password" id="html5-password-input">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="html5-number-input" class="col-md-2 col-form-label">Number</label>
-        <div class="col-md-10">
-          <input class="form-control" type="number" value="18" id="html5-number-input">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="html5-datetime-local-input" class="col-md-2 col-form-label">Datetime</label>
-        <div class="col-md-10">
-          <input class="form-control" type="datetime-local" value="2021-06-18T12:30:00" id="html5-datetime-local-input">
-        </div>
-      </div>
+
+        <label for="html5-number-input" class="col-md-2 col-form-label">GET probability</label>
+        <div class="col-sm-3">
+          <div class="col-md-10">
+            <input class="form-control" type="number" id="html5-number-input2">
+          </div>
     
-      <div class="mb-3 row">
-        <label for="html5-month-input" class="col-md-2 col-form-label">Month</label>
-        <div class="col-md-10">
-          <input class="form-control" type="month" value="2021-06" id="html5-month-input">
+        </div>
+        
+      </div>
+
+      <!-- thirteenth Row -->
+         <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">OPPORTUNITY NAME:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="basic-default-company" placeholder="SCOPE DESCRIPTION">
+          </div>
+        </div>
+      <!-- Fourteenth Row -->
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Boiler Type:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="basic-default-company" placeholder="-">
+          </div>
+        </div>
+      <!-- Fourteenth Row -->
+      <div class="row mb-3">
+        <label class="col-sm-2 col-form-label" for="basic-default-company">Original Equipment Manufacturer</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="basic-default-company" placeholder="(OEM)">
         </div>
       </div>
-      <div class="mb-3 row">
-        <label for="html5-week-input" class="col-md-2 col-form-label">Week</label>
-        <div class="col-md-10">
-          <input class="form-control" type="week" value="2021-W25" id="html5-week-input">
+      <<div class="row mt-3">
+        <div class="d-grid gap-2 col-lg-6 mx-auto">
+          <button class="btn btn-secondary btn-lg" type="submit">Submit</button>
+          
         </div>
       </div>
-      <div class="mb-3 row">
-        <label for="html5-time-input" class="col-md-2 col-form-label">Time</label>
-        <div class="col-md-10">
-          <input class="form-control" type="time" value="12:30:00" id="html5-time-input">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="html5-color-input" class="col-md-2 col-form-label">Color</label>
-        <div class="col-md-10">
-          <input class="form-control" type="color" value="#666EE8" id="html5-color-input">
-        </div>
-      </div>
-      <div class="row">
-        <label for="html5-range" class="col-md-2 col-form-label">Range</label>
-        <div class="col-md-10">
-          <input type="range" class="form-range mt-3" id="html5-range">
-        </div>
-      </div>
+        
+    
+      
     </div>
+    
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+    
 
         
    
